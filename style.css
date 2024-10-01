@@ -1,0 +1,44 @@
+/*GENERAL*/
+
+*{
+    margin :0;
+    padding : 0;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+p {
+    color :black
+}
+
+/* TRANSITION */
+
+a, .btn {
+    transition:  all 300ms ease;
+}
+
+/* DESKTOP NAV */
+
+nav, .navlinks {
+    display: flex ;
+
+}
+
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+
+.navlinks{
+    gap: 2rem;
+    list-style: none;
+    text-decoration: white;
+}
