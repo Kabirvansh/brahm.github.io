@@ -181,6 +181,7 @@
     
     body {
         padding: 0;
+        padding-left: 10%;
         margin: 0;
         font-family: 'Times New Roman', Times, serif;
     }
@@ -262,12 +263,15 @@
     }
 
     footer {
-        padding: 1rem;
+        padding: 0rem;
         text-align: center;
     }
 
     /* Prevent horizontal scrolling */
     html, body {
         overflow-x: hidden;
+    }
+    #profile, #about-section, #contact-section {
+        margin-left: 20px; /* Shift only specific sections */
     }
 }
