@@ -280,7 +280,7 @@
     /* Styles for iPhone 15 Pro Max in Portrait */
     
     body {
-        padding-left: 10px; /* Shift content slightly to the right */
+        padding-left: 20px; /* Shift content slightly to the right */
         padding-right: 10px; /* Add right padding for symmetry */
     }
 
