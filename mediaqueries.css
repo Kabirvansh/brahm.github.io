@@ -263,7 +263,7 @@
     }
 
     footer {
-        padding: 0rem;
+       
         text-align: center;
     }
 
@@ -273,5 +273,100 @@
     }
     #profile, #about-section, #contact-section {
         margin-left: 20px; /* Shift only specific sections */
+    }
+}
+
+@media only screen and (min-width: 430px) and (max-width: 430px) and (min-height: 932px) and (max-height: 932px) and (orientation: portrait) {
+    /* Styles for iPhone 15 Pro Max in Portrait */
+    
+    body {
+        padding-left: 10px; /* Shift content slightly to the right */
+        padding-right: 10px; /* Add right padding for symmetry */
+    }
+
+    #profile {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center;
+        justify-content: center;
+        padding: 0 15px;
+        margin: 0 auto;
+        width: 100%;
+        height: 85vh; /* Adjust height */
+        box-sizing: border-box;
+    }
+
+    .Section__pic-container {
+        height: 250px;
+        width: 250px;
+        margin-bottom: 20px; /* Space between DP and text */
+    }
+
+    .section_text {
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .btn-container {
+        margin-top: 1rem;
+        justify-content: center;
+    }
+
+    .btn {
+        padding: 1rem;
+        width: 8rem;
+        border-radius: 2rem;
+        background: rgb(53, 53, 53);
+        color: white;
+    }
+
+    #socials-container {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    /* About section adjustments */
+    #about-section {
+        padding: 50px 20px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #about-section .title {
+        font-size: 2.5rem;
+    }
+
+    #about-section p {
+        font-size: 1.1rem;
+        line-height: 1.8;
+        margin-bottom: 1.5rem;
+    }
+
+    /* Contact section adjustments */
+    #contact-section {
+        padding: 1rem;
+    }
+
+    .contact-info-upper-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-info-container {
+        margin: 1rem 0;
+    }
+
+    footer {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    /* Prevent horizontal scrolling */
+    html, body {
+        overflow-x: hidden;
     }
 }

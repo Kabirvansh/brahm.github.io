@@ -321,7 +321,7 @@ section{
 
   /* footer */
   footer {
-    background-color: #333;
+    background-color: transparent;
     color: #fff;
     text-align: center;
     bottom: 0;
