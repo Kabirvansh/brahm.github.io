@@ -185,3 +185,19 @@ section{
     border: 4px solid #333;
 }
 
+.section_text{
+    align-self: center;
+    text-align: center;
+}
+
+.section_text p{
+   font-weight: 600; 
+}
+
+.section_text_p1{
+    text-align: center;
+}
+
+.section_text_p1{
+    text-align: center;
+}
