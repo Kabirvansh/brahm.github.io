@@ -98,7 +98,7 @@
 
     /* Footer adjustments */
     footer {
-        padding: 1rem;
+        padding: 0%;
     }
 
     #about-section p {
@@ -174,4 +174,100 @@
 
 .hamburger-icon.open span:last-child {
     transform: rotate(-45deg) translate(10px, -5px);
+}
+
+@media only screen and (min-width: 390px) and (max-width: 390px) and (min-height: 844px) and (max-height: 844px) and (orientation: portrait) {
+    /* Your styles for iPhone 12 in portrait */
+    
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    #profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 15px;
+        margin: 0 auto;
+        width: 100%;
+        height: 85vh;
+        box-sizing: border-box;
+    }
+
+    .Section__pic-container {
+        height: 220px;
+        width: 220px;
+        margin-bottom: 20px;
+    }
+
+    .section_text {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .btn-container {
+        margin-top: 1rem;
+        justify-content: center;
+    }
+
+    .btn {
+        padding: 1rem;
+        width: 8rem;
+        border-radius: 2rem;
+        background: rgb(53, 53, 53);
+        color: white;
+    }
+
+    #socials-container {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    /* About section adjustments */
+    #about-section {
+        padding: 30px 20px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #about-section .title {
+        font-size: 2rem;
+    }
+
+    #about-section p {
+        font-size: 1rem;
+        line-height: 1.6;
+        margin-bottom: 1.5rem;
+    }
+
+    /* Contact section adjustments */
+    #contact-section {
+        padding: 1rem;
+    }
+
+    .contact-info-upper-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-info-container {
+        margin: 1rem 0;
+    }
+
+    footer {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    /* Prevent horizontal scrolling */
+    html, body {
+        overflow-x: hidden;
+    }
 }
