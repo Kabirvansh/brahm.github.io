@@ -37,7 +37,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 18vh;
-    background-color: rgb(96, 96, 96);
+    background-color: rgb(255, 255, 255);
 }
 
 .nav-links{
@@ -252,3 +252,30 @@ section{
    color:rgb(0,0,0);
 }
 
+/* About Section */
+#about-section {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto; 
+  }
+  
+  #about-section .title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #0f0f0f;
+    margin-bottom: 20px;
+  }
+  
+  #about-section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  /* Add some padding and margin */
+  #about-section p {
+    margin-bottom: 1.5rem;
+  }
