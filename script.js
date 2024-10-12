@@ -11,10 +11,9 @@ function saveContact() {
 BEGIN:VCARD
 VERSION:3.0
 FN:Brahm Josan
-ORG:Prime Team Yeg
+ORG:Prime Team
 TEL;TYPE=CELL:+1-587-987-0803
-EMAIL:##
-ADR:;;##
+END:VCARD
     `;
     
     // Create a blob with vCard data
