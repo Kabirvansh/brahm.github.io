@@ -11,7 +11,8 @@ function saveContact() {
 BEGIN:VCARD
 VERSION:3.0
 FN:Brahm Josan
-ORG:Prime Team
+ORG:Brahm Josan
+NOTE:Prime Team Yeg
 TEL;TYPE=CELL:+1-587-987-0803
 END:VCARD
     `;
