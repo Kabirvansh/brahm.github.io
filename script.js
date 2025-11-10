@@ -10,11 +10,10 @@ function saveContact() {
     const vCardData = `
 BEGIN:VCARD
 VERSION:3.0
-FN:Kabirvansh Singh Chadha
-ORG:Your Company
-TEL;TYPE=CELL:+1-587-937-5582
-EMAIL: kabirvansh1912@gmail.com
-ADR:;;109-10811 47 AVE NW;Edmonton;AB;T6H 5J2;Canada
+FN:Brahm Josan
+ORG:Brahm Josan
+TEL;TYPE=CELL:+1-587-987-0803
+NOTE:Prime Team Yeg
 END:VCARD
     `;
     
